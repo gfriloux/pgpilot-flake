@@ -72,16 +72,16 @@
     "pgpilot-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1777816531,
-        "narHash": "sha256-7/pj3lvy1cxaFvf4foB3KDNbpa5nGGlv/6ASnZMiVYY=",
+        "lastModified": 1777829842,
+        "narHash": "sha256-fxAvqhuJs2difi4IdE1JvtHGPQ6B1NnkRVz/bzzsFrk=",
         "owner": "gfriloux",
         "repo": "pgpilot",
-        "rev": "f62e261f96611ce9b78fc3763b4927895b077497",
+        "rev": "e53e7ae91d139991f8e4e9c9bba71bc2bc4743cc",
         "type": "github"
       },
       "original": {
         "owner": "gfriloux",
-        "ref": "v0.2.0",
+        "ref": "v0.3.0",
         "repo": "pgpilot",
         "type": "github"
       }

@@ -8,7 +8,7 @@
     };
 
     pgpilot-src = {
-      url = "github:gfriloux/pgpilot/v0.2.0";
+      url = "github:gfriloux/pgpilot/v0.3.0";
       flake = false;
     };
   };
