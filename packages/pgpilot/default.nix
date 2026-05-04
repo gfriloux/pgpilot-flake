@@ -19,7 +19,7 @@ let
 in
 pkgs.rustPlatform.buildRustPackage {
   pname = "pgpilot";
-  version = "0.4.0";
+  version = "0.5.1";
 
   src = inputs.pgpilot-src;
 
@@ -51,6 +51,11 @@ pkgs.rustPlatform.buildRustPackage {
   postInstall = ''
     wrapProgram $out/bin/pgpilot \
       --prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath runtimeLibs}
+
+    install -Dm644 share/applications/pgpilot.desktop \
+      $out/share/applications/pgpilot.desktop
+    install -Dm644 share/icons/hicolor/scalable/apps/pgpilot.svg \
+      $out/share/icons/hicolor/scalable/apps/pgpilot.svg
   '';
 
   meta = {
